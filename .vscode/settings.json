@@ -1,0 +1,14 @@
+{
+  "rust-analyzer": {
+    "showUnlinkedFileNotification": false,
+    "cargo": {
+      "target": "aarch64-unknown-hermit",
+      "buildScripts": {
+        "enable": true
+      },
+      "procMacro": {
+        "enable": true
+      }
+    }
+  }
+}

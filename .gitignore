@@ -1,2 +1,4 @@
 /target
 /libhermit.a
+/mobilenet.onnx
+/wasi_hello_world.wasm

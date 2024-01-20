@@ -1,3 +1,2 @@
-fn main() {
-    println!("Hello World!");
-}
+use tract_onnx::prelude::*;
+fn main() {}
