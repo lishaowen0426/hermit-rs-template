@@ -1,2 +1,8 @@
 [toolchain]
-path = "/Users/lsw/Code/hermit/rust/build/host/stage2"
+#channel = "nightly-2023-12-15"
+path = "/home/sw/hermit/rust/build/host/stage2"
+
+#components = [
+#    "llvm-tools",
+#    "rust-src",
+#]

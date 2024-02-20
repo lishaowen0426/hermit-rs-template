@@ -23,7 +23,7 @@ struct KernelSrc {
 
 impl KernelSrc {
     fn find() -> Option<Self> {
-        let src_dir = PathBuf::from_str("/Users/lsw/Code/hermit/kernel").ok()?;
+        let src_dir = PathBuf::from_str("/home/sw/hermit/kernel").ok()?;
         let manifest_path = src_dir.join("Cargo.toml");
         if manifest_path.exists() {
             Some(Self { src_dir })

@@ -7,10 +7,10 @@ edition = "2021"
 
 
 [dependencies]
-wasmi = {  default-features = false, path = "/Users/lsw/Code/hermit/wasmi/crates/wasmi"}
+#wasmi = {  default-features = false, path = "/Users/lsw/Code/hermit/wasmi/crates/wasmi"}
 #wasmi = "0.31.1"
 anyhow = "1.0"
-tract-onnx = { path = "/Users/lsw/Code/hermit/tract/onnx"}
+tract-onnx = { path = "../tract/onnx"}
 tar = "0.4.40"
 
 [patch.crates-io]
